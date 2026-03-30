@@ -1,9 +1,11 @@
 # SEN204- Midterm-Project
 Midterm Project submission by Fidan Alasgarli 
+###
 Many designers, developers, and students struggle to quickly find and select the exact color they need, along with its accurate HEX, RGB, or other color codes. Existing tools can be complex or not beginner-friendly.
+###
 Objective of the Project:
+###
 The goal of this project is to design and develop a web-based color picker tool using HTML, CSS, and JavaScript.
-
 ###
 It will allow users to:
 ###
