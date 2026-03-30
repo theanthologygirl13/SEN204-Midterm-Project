@@ -1,0 +1,284 @@
+
+*{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color:#d6cbd0;
+}
+.picker-section-1 {
+  color:black;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+}
+.picker-section-1 h5 {
+  color:rgb(69, 66, 66);
+}
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  background-color: #e4dfe3c4;
+  height: 50px;
+  padding: 10px 20px;
+  margin: auto;
+}
+.fa-bars{
+  cursor: pointer;
+  font-size: 19px;
+  height: 5px;
+}
+#hotbar {
+  background: transparent;
+  transition: 0.2s
+}
+#hotbar:hover{
+  background-color: #785b6d;
+  cursor: pointer;
+}
+
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  right: -300px; 
+  width: 250px;
+  height: 100%;
+  background-color: #6f4d64c4;
+  color: white;
+  padding: 20px;
+
+  transition: left 0.3s ease;
+}
+#xmark {
+  cursor: pointer;
+}
+
+#sidebar.active {
+  right: 0;
+}
+#icon-1 {
+  margin-left: 200px;
+  cursor: pointer;
+}
+
+#sidebar p {
+  margin-bottom: 15px;
+  padding: 10px;
+  cursor: pointer;
+
+}
+
+.navbar-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.fa-eye-dropper{
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: none;
+}
+
+.fa-file-image {
+  margin-right: 5px;
+  cursor: pointer;
+}
+.fa-dharmachakra{
+  display: flex;
+  cursor: pointer;
+}
+
+.fa-laptop {
+  display: flex;
+  cursor: pointer;
+}
+.fa-book{
+  display: flex;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#colorpicker {
+  width: 500px;
+  height: 305px;
+  align-items: center;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.color-harmonies {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  margin-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#color-harmony-container{
+  background-color: #e6e6e6;
+}
+
+.colors-harmony-box{
+  width: 90%;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 5000px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.colors-harmony{
+  width: 95%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+#color-1 {
+  background-color: #BF5E41;
+}
+
+#color-2 {
+  background-color: #BF9D41;
+}
+#color-3 {
+  background-color: #A2BF41;
+}
+#color-4 {
+  background-color: #BF9D41;
+}
+#color-5 {
+  background-color: #4163BF;
+
+}
+#color-6 {
+  background-color: #BF9D41;
+
+}
+#color-7 {
+  background-color: #41A2BF;
+}
+#color-8 {
+  background-color: #5E41BF;
+
+}
+
+#button1 {
+  background-color: white;
+  color:#000000;
+  transition: 0.3s;
+  opacity: 0.7;
+}
+#button1:hover {
+  background-color: #a4909a;
+  cursor: pointer;
+}
+
+#button2 {
+  background-color: #280505;
+  color:#fff;
+  transition: 0.2s;
+}
+#button2:hover {
+  background-color: #815571;
+  cursor: pointer;
+}
+
+.btn-text{
+  color: #fff;
+}
+.buttons {
+  border-radius: 5%;
+  width: 200px;
+  height: 50px;
+}
+.button-container {
+
+  display:  flex;
+
+}
+
+#color-show{
+  width: 200px;
+  height: 300px;
+  background-color: purple;
+  margin-left: 20px;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  color: white;
+}
+
+.color-show-container {
+  display: flex;
+  background-color: transparent;
+  height: 300px;
+  width: 900px;
+}
+
+.color-table{
+  background-color: transparent;
+}
+
+.container{
+  margin: 0 auto;
+  width: 1200px;
+}
+
+#picker-button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+#image-button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+#wheel-button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+#library-button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+#blog-button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
