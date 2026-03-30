@@ -25,7 +25,7 @@ button.addEventListener("click", () => {
 
   colorPicker.value = color;
   colorShow.style.backgroundColor = color;
-  // optional: update text field
+  
   document.getElementById("color-code").textContent = color;
 });
 
@@ -45,7 +45,7 @@ document.getElementById('button2').addEventListener('click', () => {
   const hex = document.getElementById('colorpicker').value.toUpperCase();
 
   navigator.clipboard.writeText(hex).then(() => {
-    // Optional: give the user feedback
+    
     const btn = document.getElementById('button2');
     btn.textContent = 'Copied! ✓';
     setTimeout(() => {
